@@ -1,0 +1,22 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+.navbar{
+  background:black;
+  height:70px;
+  align-items:center;
+}
+
+.navbar ul{
+  display:flex;
+  height:70px;
+  align-items:center;
+}
+.navbar ul li{
+  list-style:none;
+  text-decoration:none;
+  padding:10px;
+  line-height:1.5em;
+}

@@ -1,0 +1,12 @@
+.notice-page{
+  display:block;
+  overflow-x:hidden;
+}
+.notice-page .notice-heading{
+  display:flex;
+  justify-content: center;
+}
+.notice-page .notices{
+  display: flex;
+}
+

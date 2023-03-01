@@ -1,0 +1,36 @@
+.noticeCard{
+  display:block;
+  border: 3px solid rgb(59,89,197);
+  color:white;
+  height:250px;
+  width:500px;
+  margin:50px;
+  padding:15px;
+  border-radius:10px;
+}
+
+.noticeCard .date{
+  padding:10px;
+}
+.noticeCard .date ul{
+  display:flex;
+  justify-content:space-between;
+}
+
+.noticeCard .date ul li{
+  text-decoration:none;
+  list-style:none;
+}
+
+.noticeCard .subject{
+  display:block;
+}
+
+.noticeCard .subject{
+  font-size:1.2em;
+  margin-bottom:5px;
+  padding:0px 5px;
+}
+.noticeCard .content{
+  padding-left:10px;
+}
