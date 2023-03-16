@@ -9,4 +9,15 @@
 .notice-page .notices{
   display: flex;
 }
+button{
+  color:white;
+  height: 40px;
+  width: 150px;
+}
+
+input{
+  color:white;
+  height: 40px;
+  width: 200px;
+}
 
