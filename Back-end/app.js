@@ -6,6 +6,7 @@ const app = express()
 const basic = require('./router/basicRoutes')
 const connectDB = require('./database/connection')
 const notice = require('./router/notice')
+const todo = require('./router/todo')
 
 // passwords and other hidden variables 
 require('dotenv').config()
@@ -17,6 +18,8 @@ app.use(express.json())
 // middleware
 app.use('/',basic)
 app.use('/notice',notice)
+app.use('/todo',todo)
+
 
 // start server connection to mongodb and port 
 function start(URL,PORT){
