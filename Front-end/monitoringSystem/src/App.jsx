@@ -1,4 +1,5 @@
 import './App.css'
+import AddNotice from './component/AddNotice'
 import Navbar from './component/Navbar.jsx'
 import Notice from './component/Notice.jsx'
 import ToDoList from './component/ToDoList'
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Notice/>
       <ToDoList/>
+      <AddNotice/>
     </div>
   )
 }

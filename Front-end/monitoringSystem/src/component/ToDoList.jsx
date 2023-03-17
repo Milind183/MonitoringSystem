@@ -27,6 +27,8 @@ export default function ToDoList(){
   }
 
   return(
+
+    <section id='todo'>
     <div className="toDoList">
       
       <div className="todo-heading">
@@ -53,5 +55,6 @@ export default function ToDoList(){
         </ol>
       </div>
     </div>
+    </section>
   );
 }

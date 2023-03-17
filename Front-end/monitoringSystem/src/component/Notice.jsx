@@ -17,10 +17,13 @@ export default function Notice(){
   }
 
   return(
+    <section>
+
+   
   <div className="notice-page">
     <div className="notice-heading">
       <h1>
-        Notice <button type="submit">+</button>
+        Notice 
       </h1>
     </div>
     <div className="notices">
@@ -28,13 +31,9 @@ export default function Notice(){
       <NoticeCard {...prop[0]} />
       <NoticeCard {...prop[0]} />
     </div>
-
-    <form action="http://localhost:3000/notice/data" method="post"  className="addNotice">
-      <input type="text" name="title" placeholder="title" onChange={getTitle}/>
-      <input type="text" name="content" placeholder="content" onChange={getContent}/>
-      <button type="submit" onClick={addNotice}> ADD </button>
-    </form>
-    
+   
     </div>
+
+    </section>
   )
 }
